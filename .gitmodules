@@ -1,0 +1,36 @@
+[submodule "427phermina-lab1"]
+	path = hermina
+	url = git@github.com:devangel77b/427phermina-lab1.git
+[submodule "feinstein"]
+	path = feinstein
+	url = git@github.com:devangel77b/428afeinstein-lab1.git
+[submodule "silecchia"]
+	path = silecchia
+	url = git@github.com:devangel77b/428msilecchia-lab1.git
+[submodule "arunkumar"]
+	path = arunkumar
+	url = git@github.com:devangel77b/428parunkumar-lab1.git
+[submodule "vellore"]
+	path = vellore
+	url = git@github.com:devangel77b/428avellore-lab1.git
+[submodule "saengchailarpwatanna"]
+	path = saengchailarpwatanna
+	url = git@github.com:devangel77b/428asaengchailarpwatanna-lab1.git
+[submodule "ma"]
+	path = ma
+	url = git@github.com:devangel77b/428bma-lab1.git
+[submodule "selvadhurai"]
+	path = selvadhurai
+	url = git@github.com:devangel77b/428nselvadhurai-lab1.git
+[submodule "henkel"]
+	path = henkel
+	url = git@github.com:devangel77b/428mhenkel-lab1.git
+[submodule "valliath"]
+	path = valliath
+	url = git@github.com:devangel77b/428zvalliath-lab1.git
+[submodule "budhiraja"]
+	path = budhiraja
+	url = git@github.com:devangel77b/428abudhiraja-lab1.git
+[submodule "patel"]
+	path = patel
+	url = git@github.com:devangel77b/428epatel-lab1.git
