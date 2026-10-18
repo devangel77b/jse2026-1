@@ -1,0 +1,123 @@
+\documentclass[letterpaper,11pt,electronic,headers=exceptpdf,papers=countpages,twoside,linkcolor=blue,urlcolor=blue]{confproc}
+
+\renewcommand{\procpdfauthor}{Dennis Evangelista, Manalapan High School}
+\renewcommand{\procpdftitle}{Journal of Science \& Engineering}
+\renewcommand{\procchead}{}
+\renewcommand{\proclhead}{}
+\renewcommand{\proccfoot}{\thepage}
+
+\author{\procpdfauthor}
+\title{\procpdftitle}
+\date{May xx, 2026}
+\renewcommand{\PAPERPATH}{.}
+%\renewcommand{\paperauthorstyle}{\texorpdfstring{\break}{, }}
+
+\makeindex
+
+\usepackage{pdfpages}
+\usepackage{helvet,mathptmx}
+%\renewcommand{\contentsname}{{\normalfont\sffamily Journal of\medskip~}\\{\normalfont\Huge Science \& Engineering}}
+\renewcommand{\contentsname}{}
+\usepackage{verse}
+
+\begin{document}
+\frontmatter
+\setcounter{page}{1}
+\pdfbookmark[0]{Preamble}{preamble}
+\pdfbookmark[0]{Cover}{cover}
+%\maketitle
+\index{Evangelista, Dennis}
+\includepdf[pages=1]{cover}
+\newpage
+\input{masthead.tex}
+\otherpagestyle
+\pdfbookmark[0]{Table of Contents}{toc}
+\tableofcontents
+\addtocontents{toc}{{\normalfont\sffamily\Large Journal of\medskip~}\\{\normalfont\Huge Science \& Engineering}\medskip\\}
+\makeatletter
+\addtocontents{toc}{Volume 2, Number 7, \@date\bigskip\\}
+\makeatother
+\addtocontents{toc}{\emph{From the cover:} Momentum conservation. \emph{Cover image: Dennis Evangelista.} \bigskip\\}
+
+% Haiku here
+\input{insidejse.tex}
+
+\mainmatter
+\setcounter{page}{100}
+
+% Next line is a hack necessary to not waste pages
+\renewcommand{\cleardoublepage}{\clearpage}
+
+\procpaper[%
+title={Investigation fo the conservation of momentum using carts},
+author={Kyle Koping and Nimya Badmin},
+index={\index{Koping, Kyle}\index{Badmin, Nimya}},
+]{/koping/koping}
+
+\procpaper[%
+title={Exploring conservation of momentum in inelastic collisions},
+author={Sarah Afzal, Sejal Nagrani, and Shreena Desai},
+index={\index{Afzal, Sarah}\index{Nagrani, Sejal}\index{Desai, Shreena}},
+]{/afzal/afzal}
+
+\procpaper[%
+title={Conservation of momentum in elastic collisions},
+author={Mason Levine, Deven Khettry, and Rohan Dela Rosa},
+index={\index{Levin, Mason}\index{Khettry, Deven}\index{Dela Rosa, Rohan}},
+]{/levine/levine}
+
+\procpaper[%
+title={Testing momentum conservation in inelastic collisions},
+author={Sashank Yellapragada, Samantha Hein, Saanvi Dakwale, Kaitlin Coulanges, and Reese Wallace},
+index={\index{Yellapragada, Sashank}\index{Hein, Samantha}\index{Dakwale, Saanvi}\index{Coulanges, Kaitlin}\index{Wallace, Reese}},
+]{/yellapragada/yellapragada}
+
+\procpaper[%
+title={Testing momentum conservtion through elastic collisions},
+author={Joseph Cardillo, Jake, Ashmaan, David, Justin, and Bobby},
+index={\index{Cardillo, Joseph}\index{Jake}\index{Ashmaan}\index{David}\index{Justin}\index{Bobby}},
+]{/cardillo/cardillo}
+
+\procpaper[%
+title={Experimental verification of the conservation of linear momentum},
+author={Ayaan Hallur, Mark Reznik, Jospeh Tiboni, Paul Zlotnikov, and Soham Sankritya},
+index={\index{Hallur, Ayaan}\index{Reznik, Mark}\index{Tiboni, Joseph}\index{Zlotnikov, Paul}\index{Sankriya, Soham}},
+]{/hallur/hallur}
+
+\procpaper[%
+title={Momentum is conserved in inelastic collisions},
+author={Kelly Su, Julia Bawar, Julia Khabinskiy, and Ella Pechersky},
+index={\index{Su, Kelly}\index{Bawar, Julia}\index{Khabinskiy, Julia}\index{Pechersky, Ella}},
+]{/su/su}
+
+\procpaper[%
+title={Is momentum conserved in an elastic collision?},
+author={Ethan Sobel, Lorenzo Brunie, and Jacob Kadan},
+index={\index{Sobel, Ethan}\index{Brunie, Lorenzo}\index{Kadan, Jacob}},
+]{/sobel/sobel}
+
+\procpaper[%
+title={Momentum conservation in perfectly inelastic collisions with varying mass},
+author={Timothy Chung, Jacob Pawelek, Omar Ahmadzada, Matthew Butch, and Tarun Ramesh},
+index={\index{Chung, Timothy}\index{Pawelek, Jacob}\index{Ahmadzada, Omar}\index{Butch, Matthew}\index{Ramesh, Tarun}},
+]{/chung/chung}
+
+\procpaper[%
+title={Examining momentum conservation in perfectly inelastic collisions: a cart-track experimental analysis},
+author={Ishaan Sharma, Blaise DeMairo, Alexander Liddawi, Andrew Dolgin, and Ansh Modani},
+index={\index{Sharma, Ishaan}\index{DeMairo, Blaise}\index{Liddawi, Alexander}\index{Dolgin, Andrew}\index{Modani, Ansh}},
+]{/sharma/sharma}
+
+
+
+
+
+\backmatter
+%\bibliographystyle{plain}
+%\bibliography{\procbibfile}
+
+\insertindex
+
+% get on even page?!
+%\includepdf[pages=1]{main-confproc-old.pdf}
+\end{document}
