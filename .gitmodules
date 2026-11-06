@@ -14,7 +14,7 @@
 	path = vellore
 	url = git@github.com:devangel77b/428avellore-lab1.git
 [submodule "saengchailarpwatanna"]
-	path = saengchailarpwatanna
+	path = saengchailarpwattana
 	url = git@github.com:devangel77b/428asaengchailarpwatanna-lab1.git
 [submodule "ma"]
 	path = ma
