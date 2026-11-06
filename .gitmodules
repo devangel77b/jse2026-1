@@ -19,9 +19,6 @@
 [submodule "ma"]
 	path = ma
 	url = git@github.com:devangel77b/428bma-lab1.git
-[submodule "selvadhurai"]
-	path = selvadhurai
-	url = git@github.com:devangel77b/428nselvadhurai-lab1.git
 [submodule "henkel"]
 	path = henkel
 	url = git@github.com:devangel77b/428mhenkel-lab1.git
@@ -34,3 +31,6 @@
 [submodule "patel"]
 	path = patel
 	url = git@github.com:devangel77b/428epatel-lab1.git
+[submodule "gulley"]
+	path = gulley
+	url = git@github.com:devangel77b/428lgulley-lab1.git
